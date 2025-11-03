@@ -11,20 +11,21 @@ def clear_console():
 def banner():
     clear_console()
     print(f"""{Fore.RED}
-    __               __   ______  
-  _/  |_            /  | /      \ 
- / $$   \   ______  $$ |/$$$$$$  |
-/$$$$$$  | /      \ $$ |$$ |_ $$/ 
-$$ \__$$/ /$$$$$$  |$$ |$$   |    
-$$      \ $$    $$ |$$ |$$$$/     
- $$$$$$  |$$$$$$$$/ $$ |$$ |      
-/  \__$$ |$$       |$$ |$$ |      
-$$    $$/  $$$$$$$/ $$/ $$/       
- $$$$$$/                          
-   $$/                            
-                                  
-                  {Fore.MAGENTA}Status Changer :,v
-             {Fore.CYAN}Created by: Slfz
+  `8, `8)                            ,adPPRg,
+   8)  ]8                        ,ad888888888b
+  ,8' ,8'                    ,gPPR888888888888
+  ,8' ,8'                 ,ad8""   `Y888888888P
+  8)  8)              ,ad8""        (8888888""
+  8,  8,          ,ad8""            d888""
+  `8, `8,     ,ad8""            ,ad8""
+   `8, `" ,ad8""            ,ad8""
+     ,gPPR8b           ,ad8""
+    dP:::::Yb      ,ad8""
+    8):::::(8  ,ad8""
+    Yb:;;;:d888""    Dead inside
+     "8ggg8P"        ...                                                                                                                     
+                  {Fore.MAGENTA}Discord Status Changer 
+             {Fore.CYAN}Made by: ils
 {Fore.RESET}""")
 
 def userinfo(token):
@@ -46,7 +47,7 @@ def change_status(token, message, status):
 
 token = ''  #Pone tu token aca anormal 
 status_list = ["online", "idle", "dnd"]
-statuses = ["Test1", "Test2", "Test3"] #Elige cualquier estado :Vvv
+statuses = ["Test1", "Test2", "Test3"] #cualquiera
 sleep_time = 3 #Elige el tiempo que quieras, o nose jodete
 
 def main():
