@@ -22,10 +22,10 @@ def banner():
      ,gPPR8b           ,ad8""
     dP:::::Yb      ,ad8""
     8):::::(8  ,ad8""
-    Yb:;;;:d888""    Dead inside
-     "8ggg8P"        ...                                                                                                                     
+    Yb:;;;:d888""    
+     "8ggg8P"                                                                                                                           
                   {Fore.MAGENTA}Discord Status Changer 
-             {Fore.CYAN}Made by: ils
+             {Fore.CYAN}Made by: intosmoke
 {Fore.RESET}""")
 
 def userinfo(token):
@@ -45,10 +45,10 @@ def change_status(token, message, status):
     jsonData = {"custom_status": custom_status, "activities": activities, "status": status}
     requests.patch("https://discord.com/api/v10/users/@me/settings", headers=headers, json=jsonData)
 
-token = ''  #Pone tu token aca anormal 
+token = ''  #Pone tu token aca (el de tu cuenta de discord)
 status_list = ["online", "idle", "dnd"]
 statuses = ["Test1", "Test2", "Test3"] #cualquiera
-sleep_time = 3 #Elige el tiempo que quieras, o nose jodete
+sleep_time = 3 #Tiempo en el que se cambia el estado
 
 def main():
     while True:
